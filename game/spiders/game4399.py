@@ -1,12 +1,6 @@
 import scrapy
 from game.items import GameItem
-#redis数据库启动的小问题
-#redis-server.exe redis.windows.conf 
-#启动Redis报错：Could not create server TCP listening socket 127.0.0.1:6379: bind: 处理方式
-#redis-cli.exe
-# shutdown
-# exit
-# redis-server.exe redis.windows.conf
+
 
 
 class Game4399Spider(scrapy.Spider):
